@@ -1,0 +1,11 @@
+#Q {
+       
+    padding: 30px;
+
+}
+
+@media print {
+    button {
+        display: none;
+    }
+ }
