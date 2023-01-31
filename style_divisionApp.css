@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin-left: 30px;
+  }
+  
+  /* Create a two-column layout */
+  .column {
+    float: left;
+    width: 25%;   /*page with 4 columns*/
+    padding: 5px;
+    margin-bottom: 90px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
